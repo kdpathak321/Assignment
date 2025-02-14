@@ -28,7 +28,7 @@ Installation & Setup
 
 Clone the repository:
 
-git clone https://github.com/kdpathak321/study-mbbs-abroad.git
+git clone [https://github.com/kdpathak321/study-mbbs-abroad.git](https://kdpathak321.github.io/Assignment/)
 
 Navigate into the project directory:
 
