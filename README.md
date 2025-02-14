@@ -28,13 +28,13 @@ Installation & Setup
 
 Clone the repository:
 
-git clone https://github.com/yourusername/study-mbbs-abroad.git
+git clone https://github.com/kdpathak321/study-mbbs-abroad.git
 
 Navigate into the project directory:
 
 cd study-mbbs-abroad
 
-Open index.html in a browser or deploy it online.
+Open intern.html in a browser or deploy it online.
 
 Usage Instructions
 
