@@ -66,7 +66,4 @@ Live Demo
 
 Click here to view the live site
 
-Contact
-
-For feedback or queries, email your.email@example.com.
 
