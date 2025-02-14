@@ -1,0 +1,94 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Study MBBS Abroad - Find the best medical programs in Russia, Uzbekistan, Kazakhstan, Philippines, Georgia, Kyrgyzstan, and Egypt.">
+    <meta name="keywords" content="MBBS Abroad, Study Medicine, Medical Programs, International MBBS">
+    <meta name="author" content="Your Name">
+    <title>Study MBBS Abroad</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_TRACKING_ID');
+    </script>
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'FB_PIXEL_ID');
+        fbq('track', 'PageView');
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-100">
+   
+    <header class="bg-blue-600 text-white text-center py-16">
+        <h1 class="text-4xl font-bold">Study MBBS Abroad</h1>
+        <p class="text-lg mt-2">Apply now and secure your future in medicine.</p>
+        <a href="#apply" class="mt-4 inline-block bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold">Apply Now</a>
+    </header>
+
+    <section class="max-w-4xl mx-auto p-6 text-center">
+        <h2 class="text-2xl font-semibold">Why Study MBBS Abroad?</h2>
+        <p class="mt-2">Affordable tuition fees, globally recognized universities, and high-quality education.</p>
+    </section>
+  
+    <section class="max-w-6xl mx-auto p-6">
+        <h2 class="text-2xl font-semibold text-center">Top Destinations</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mt-6">
+            <div class="p-4 bg-white rounded-lg shadow">Russia</div>
+            <div class="p-4 bg-white rounded-lg shadow">Uzbekistan</div>
+            <div class="p-4 bg-white rounded-lg shadow">Kazakhstan</div>
+            <div class="p-4 bg-white rounded-lg shadow">Philippines</div>
+            <div class="p-4 bg-white rounded-lg shadow">Georgia</div>
+            <div class="p-4 bg-white rounded-lg shadow">Kyrgyzstan</div>
+            <div class="p-4 bg-white rounded-lg shadow">Egypt</div>
+        </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto p-6 text-center">
+        <h2 class="text-2xl font-semibold">Admission Process & Eligibility</h2>
+        <ul class="mt-4 list-disc list-inside text-left">
+            <li>High school diploma or equivalent.</li>
+            <li>Minimum qualifying marks in Science subjects.</li>
+            <li>English language proficiency.</li>
+        </ul>
+    </section>
+
+    <section id="apply" class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow mt-8">
+        <h2 class="text-2xl font-semibold text-center">Apply Now</h2>
+        <form id="leadForm" class="mt-4">
+            <input type="text" id="name" placeholder="Your Name" class="w-full p-2 border rounded mb-2" required>
+            <input type="email" id="email" placeholder="Your Email" class="w-full p-2 border rounded mb-2" required>
+            <input type="tel" id="phone" placeholder="Your Phone" class="w-full p-2 border rounded mb-2" required>
+            <select id="country" class="w-full p-2 border rounded mb-2" required>
+                <option value="">Select Your Preferred Country</option>
+                <option value="Russia">Russia</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="Egypt">Egypt</option>
+            </select>
+            <button type="submit" class="w-full bg-blue-600 text-white p-2 rounded">Submit</button>
+        </form>
+    </section>
+
+    <script>
+        document.getElementById("leadForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("Form submitted successfully!");
+        });
+    </script>
+</body>
+</html>
